@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/images/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>AGweb | Diseño de páginas web</title>
+</head>
+<body class="relative font-web text-primary-600 overflow-x-hidden select-none">
+    <!-- Header -->   
+<nav class="bg-primary-700 border-gray-200">
+  <a
+  href="https://wa.link/wt755g"
+  data-te-ripple-init
+  data-te-ripple-color="light"
+  class="fixed bottom-2 right-2 z-20 rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+  style="background-color: #128c7e">
+  <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-7 w-7"
+            fill="currentColor"
+            viewBox="0 0 24 24">
+            <path
+              d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+          </svg>
+</a>
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="/" class="flex items-center">
+      <img src="public/images/logo.png" class="h-8 mr-3" alt="Flowbite Logo" />
+      <span class="self-center text-2xl font-semibold whitespace-nowrap text-primary-600">AGweb</span>
+    </a>
+    <button data-collapse-toggle="navbar-multi-level" type="button"
+      id="burger-menu"
+      class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+      aria-controls="navbar-multi-level" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto bg-primary-700 transition-200" id="navbar-multi-level">
+      <ul
+        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-primary-700 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+        <li>
+          <a href="#banner"
+            class="block py-2 pl-3 pr-4 text-primary-600 rounded md:bg-transparent hover:text-primary-100 md:p-0 "
+            aria-current="page">Inicio</a>
+        </li>
+        <li>
+          <a href="#servicios"
+            class="block py-2 pl-3 pr-4 text-primary-600 rounded md:bg-transparent hover:text-primary-100 md:p-0 "
+            aria-current="page">Servicios</a>
+        </li>
+        <li>
+          <a href="#planes"
+            class="block py-2 pl-3 pr-4 text-primary-600 rounded md:bg-transparent hover:text-primary-100 md:p-0 "
+            aria-current="page">Planes</a>
+        </li>
+        <li>
+          <a href="#proceso"
+            class="block py-2 pl-3 pr-4 text-primary-600 rounded md:bg-transparent hover:text-primary-100 md:p-0 "
+            aria-current="page">Proceso de desarrollo</a>
+        </li>
+        <li>
+          <a href="https://wa.link/wt755g"
+            class="block py-2 pl-3 pr-4 text-primary-600 rounded md:bg-transparent hover:text-primary-100 md:p-0 "
+            aria-current="page">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+      <!-- Banner -->
+      <section
+        id="banner"
+        class="relative bg-[url(public/images/background1.webp)] bg-cover bg-center bg-no-repeat bg-fixed">
+        <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
+      
+        <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+          <div class="max-w-xl text-center sm:text-left">
+            <h1 class="text-3xl font-extrabold sm:text-5xl text-primary-600">
+              Diseño web profesional para tu negocio.
+      
+              <strong class="block font-extrabold text-primary-200">
+                ¡Mejora tu presencia en línea hoy!
+              </strong>
+            </h1>
+      
+            <p class="mt-4 max-w-lg text-primary-600 sm:text-xl sm:leading-relaxed">
+              Atrae a tus clientes con un diseño web de primera. Contactanos y déjanos hacer el trabajo por ti.
+            </p>
+      
+            <div class="mt-8 flex flex-wrap gap-4 text-center">
+              <a href="https://wa.link/wt755g"
+                class="block w-full rounded bg-primary-200 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto">
+                Solicitar presupuesto
+              </a>
+      
+              <a href="#servicios"
+                class="block w-full rounded bg-primary-700 px-12 py-3 text-sm font-medium text-primary-200 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto">
+                Conocer más!
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- Process -->
+<section 
+id="servicios"
+class="bg-primary-600 text-white">
+  <div
+    class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
+  >
+    <div class="mx-auto max-w-lg text-center">
+      <h2 class="text-3xl font-bold sm:text-4xl">La importancia de tener presencia en línea para tu negocio</h2>
+
+      <p class="mt-4 text-gray-300">
+        En la era digital, tener presencia en línea es crucial para llegar a más clientes, aumentar la credibilidad, interactuar con seguidores y medir el rendimiento del sitio web y estrategias de marketing. En resumen, una presencia en línea efectiva es esencial para el éxito de tu negocio.
+      </p>
+    </div>
+
+    <div  class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div
+        class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-primary-200/10 hover:shadow-primary-200/10"
+        href="/services/digital-campaigns"
+        data-aos="fade-right"
+      >
+        <img src="public/images/landing-page.webp" alt="landing page" class="w-12 h-12">
+
+        <h2 class="mt-4 text-xl font-bold text-white">Landing Page</h2>
+
+        <p class="mt-1 text-sm text-gray-300">
+          Una landing page es una página de destino diseñada específicamente para convertir a los visitantes en clientes potenciales o compradores.
+        </p>
+      </div>
+
+      <div
+        class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-primary-200/10 hover:shadow-primary-200/10"
+        href="/services/digital-campaigns"
+        data-aos="fade-right"
+      >
+        <img src="public/images/responsive-design.webp" alt="responsive design" class="h-12 w-12">
+
+        <h2 class="mt-4 text-xl font-bold text-white">Páginas adaptables</h2>
+
+        <p class="mt-1 text-sm text-gray-300">
+          Una página web responsive se adapta a cualquier dispositivo, lo que mejora la accesibilidad y la experiencia del usuario. Además, los motores de búsqueda prefieren sitios web responsive y los posicionan más alto en los resultados de búsqueda.
+        </p>
+      </div>
+
+      <div
+        class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-primary-200/10 hover:shadow-primary-200/10"
+        href="/services/digital-campaigns"
+        data-aos="fade-right"
+      >
+        
+        <img src="public/images/gear.webp" alt="autoadministrables" class="h-12 w-12">
+        <h2 class="mt-4 text-xl font-bold text-white">Páginas autoadministrables</h2>
+
+        <p class="mt-1 text-sm text-gray-300">
+          Tener una página web autoadministrable es una excelente opción para aquellos que desean tener control completo sobre su sitio web. 
+        </p>
+      </div>
+
+      <div
+        class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-primary-200/10 hover:shadow-primary-200/10"
+        href="/services/digital-campaigns"
+        data-aos="fade-left"
+      >
+        <img src="public/images/online-shop.webp" alt="ecommerce" class="h-12 w-12">
+
+        <h2 class="mt-4 text-xl font-bold text-white">Tiendas Online</h2>
+
+        <p class="mt-1 text-sm text-gray-300">
+          Tener una tienda en línea es fundamental en la actualidad para cualquier negocio que desee aumentar sus ventas y expandirse a nivel global.
+        </p>
+      </div>
+
+      <div
+        class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+        href="/services/digital-campaigns"
+        data-aos="fade-left"
+      >
+        <img src="public/images/menu.webp" alt="menu qr" class="h-12 w-12">
+
+        <h2 class="mt-4 text-xl font-bold text-white">Menú digital QR</h2>
+
+        <p class="mt-1 text-sm text-gray-300">
+          Los menús digitales son fáciles de actualizar y más higiénicos que los físicos. Además, los clientes pueden acceder al menú directamente desde su teléfono, lo que reduce costos y es más ecológico.
+        </p>
+      </div>
+
+      <div
+        class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+        href="/services/digital-campaigns"
+        data-aos="fade-left"
+      >
+        <img src="public/images/social-media.webp" alt="social media" class="h-12 w-12">
+
+        <h2 class="mt-4 text-xl font-bold text-white">Integración con redes sociales</h2>
+
+        <p class="mt-1 text-sm text-gray-300">
+          Integrar redes sociales en una página web aumenta la interacción y visibilidad de la marca, permite compartir contenido fácilmente, y aumenta la credibilidad y confianza en la marca.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-12 text-center">
+      <div
+        href="https://wa.link/wt755g"
+        class="inline-block rounded bg-primary-200 px-12 py-3 text-sm font-medium text-white transition hover:bg-primary-100 focus:outline-none focus:ring focus:ring-yellow-400"
+      >
+        Realizar consulta!
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- steps -->
+<section 
+id="proceso"
+class="bg-[url(public/images/background2.webp)] bg-cover bg-center bg-no-repeat bg-fixed">
+
+    <div class="max-w-screen-xl px-4 py-8 bg-primary-750 m-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+      <div class="max-w-xl ">
+        <h2 class="text-3xl font-bold sm:text-4xl">Como es el proceso de desarrollo?</h2>
+      </div>
+  
+      <div
+        class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-4"
+      >
+        <div  data-aos="zoom-in" class="flex items-start gap-4 bg-primary-700 p-2 rounded text-primary-600">
+          <span class="shrink-0 rounded-lg bg-primary-600 p-2">
+            <img src="public/images/seleccionar.webp" alt="seleccionar" class="h-8 w-8">
+          </span>
+  
+          <div>
+            <h2 class="text-lg font-bold">Planificación</h2>
+  
+            <p class="mt-1 text-sm ">
+              Se define el objetivo del proyecto y se establecen los requisitos de la página web. Se crea un product backlog, que es una lista de las funcionalidades que se deben desarrollar.
+            </p>
+          </div>
+        </div>
+  
+        <div  data-aos="zoom-in" class="flex items-start gap-4 bg-primary-700 p-2 rounded text-primary-600">
+          <span class="shrink-0 rounded-lg bg-primary-600 p-2">
+            <img src="public/images/iniciar.webp" alt="inicio" class="h-8 w-8">
+          </span>
+  
+          <div>
+            <h2 class="text-lg font-bold">Sprint</h2>
+  
+            <p class="mt-1 text-sm ">
+              Se establece un plazo fijo de tiempo (generalmente entre 1 y 4 semanas) para el desarrollo de un conjunto de funcionalidades específicas de la página web. Durante el sprint, se realizan reuniones diarias de seguimiento (daily scrum) para revisar el progreso y hacer ajustes.
+            </p>
+          </div>
+        </div>
+  
+        <div  data-aos="zoom-in" class="flex items-start gap-4 bg-primary-700 p-2 rounded text-primary-600">
+          <span class="shrink-0 rounded-lg bg-primary-600 p-2">
+            <img src="public/images/idea.webp" alt="idea" class="h-8 w-8">
+          </span>
+  
+          <div>
+            <h2 class="text-lg font-bold">Revisión</h2>
+  
+            <p class="mt-1 text-sm ">
+              Al final de cada sprint, se realiza una reunión de revisión en la que se presenta el trabajo completado y se recibe retroalimentación del equipo y los stakeholders. Se realizan ajustes al product backlog en función de esta retroalimentación.
+            </p>
+          </div>
+        </div>
+  
+        <div  data-aos="zoom-in" class="flex items-start gap-4 bg-primary-700 p-2 rounded text-primary-600">
+          <span class="shrink-0 rounded-lg bg-primary-600 p-2">
+            <img src="public/images/entrega.webp" alt="entrega" class="w-8 h-8">
+          </span>
+  
+          <div>
+            <h2 class="text-lg font-bold">Retrospectiva</h2>
+  
+            <p class="mt-1 text-sm ">
+              Se realiza una reunión de retrospectiva al final de cada sprint para identificar lo que funcionó bien y lo que se puede mejorar en el siguiente sprint. Se hacen ajustes al proceso de desarrollo para mejorar la eficiencia y la calidad del trabajo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <p class="mt-4  bg-primary-700 p-2 rounded">
+        Este proceso se repite en ciclos sucesivos hasta que se completa el desarrollo de la página web. La metodología Scrum se enfoca en la colaboración y la iteración constante para producir un resultado final de alta calidad.
+      </p>
+    </div>
+
+  
+</section>
+<!-- Planes -->
+<section id="planes">
+  <div class="relative items-center w-screen py-12 mx-auto ">
+    <div class="flex flex-wrap items-start justify-center w-full gap-2 px-2">
+
+      <div class="w-full md:w-2/4 md:w-72">
+        <div class="relative flex flex-col h-full p-8 bg-primary-700 rounded-xl hover:border-white">
+          <span class="flex items-end text-3xl font-black leading-none text-primary-600 lg:text-4xl"> Plan Inicial </span>
+          <span class="flex items-center mb-8 text-base font-medium tracking-tight text-primary-600"> Ideal para emprendimientos pequeños. </span>
+          <div class="mb-4 text-primary-600 font-medium tracking-widest text-black uppercase">
+            <span> Entrega en 15 días habiles </span>
+          </div>
+          <ul>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Hasta 3 pestañas para el sitio.</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Presentación del negocio</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100 ">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Conexión a redes sociales</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Diseño adaptable a todos los dispositivos</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Botón de whatsapp</strong>
+            </li>
+
+          </ul>
+
+          <div class="mt-8">
+            <a
+            href="https://wa.link/xrgdnl"
+             class="w-full items-center block px-10 py-3.5 text-base font-medium text-center bg-primary-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 text-primary-700">Solicitar!</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-2/4 md:w-72">
+        <div class="relative flex flex-col h-full p-8 bg-primary-600 rounded-xl hover:border-white text-primary-700">
+          <span class="flex items-end text-3xl font-black leading-none  lg:text-4xl"> Plan Profesional </span>
+          <span class="flex items-center mb-8 text-base font-medium tracking-tight "> Enfocado en presencia dígital profesional. </span>
+          <div class="mb-4 text-base font-medium tracking-widest uppercase">
+            <span> Entrega en 25 días habiles </span>
+          </div>
+          <ul>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Hasta 6 pestañas para el sitio.</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Presentación del negocio</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Conexión a redes sociales</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Diseño adaptable a todos los dispositivos</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Botón de whatsapp</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Web autogestionable</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Portada con Call to Action</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Registro de dominio</strong>
+            </li>
+
+          </ul>
+
+          <div class="mt-8">
+            <a
+            href="https://wa.link/s0gs4o"
+            class="w-full items-center block px-10 py-3.5 text-base font-medium text-center text-primary-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 bg-white">Solicitar!</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-2/4 md:w-72">
+        <div class="relative flex flex-col h-full p-8 bg-primary-700 rounded-xl hover:border-white text-primary-600">
+          <span class="flex items-end text-3xl font-black leading-none  lg:text-4xl"> Menú digital </span>
+          <span class="flex items-center mb-8 text-base font-medium tracking-tight "> Ideal para locales gastrónomicos. </span>
+          <div class="mb-4 text-base font-medium tracking-widest uppercase">
+            <span> Entrega en 35 días habiles </span>
+          </div>
+          <ul>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Recepción de pedidos por whatsapp.</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Take away para reserva y retiro en local.</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Panel de gestión de pedidos</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Manejo de stock con un click</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Integración con mercado pago.</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Botón de whatsapp para consultas.</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Administración de precios y productos</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Integración con redes sociales</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-600">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Manejo de horarios de atención</strong>
+            </li>
+          </ul>
+
+          <div class="mt-8">
+            <a 
+            href="https://wa.link/ysklot"
+            class="w-full items-center block px-10 py-3.5 text-base font-medium text-center text-primary-700 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 bg-primary-600">Solicitar!</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-2/4 md:w-72">
+        <div class="relative flex flex-col h-full p-8 bg-primary-600 text-primary-700 rounded-xl hover:border-white">
+          <span class="flex items-end text-3xl font-black leading-none lg:text-4xl"> Tienda Online </span>
+          <span class="flex items-center mb-8 text-base font-medium tracking-tight"> Ideal para venta de productos y servicios online. </span>
+          <div class="mb-4 text-base font-medium tracking-widest uppercase">
+            <span> Entrega en 35 días habiles </span>
+          </div>
+          <ul>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Hasta 6 pestañas para el sitio.</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Manejo de productos por categorías</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Carrito de compras</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Diseño adaptable a todos los dispositivos</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Botón de whatsapp</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Integración con mercado pago</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Web autogestionable</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Portada con Call to action</strong>
+            </li>
+            <li class="flex items-center mt-8 mb-2 text-base font-medium tracking-tight text-primary-700">
+              <span class="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 text-primary-100">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>
+              <strong>Manejo de stock con un click</strong>
+            </li>
+
+          </ul>
+
+          <div class="mt-8">
+            <a 
+            href="https://wa.link/kj0wbd"
+            class="w-full items-center block px-10 py-3.5 text-base font-medium text-center text-primary-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 bg-white">
+            Solicitar!
+          </a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="bg-primary-600 ">
+  
+  <div class="px-4 py-6 text-primary-700 md:flex md:items-center md:justify-between">
+      <span class="text-sm sm:text-center">© 2023 <a href="https://adriangonzalez.tech/">Adrian Gonzalez™</a>. All Rights Reserved.
+      </span>
+      <div class=" flex mt-4 space-x-6 sm:justify-center md:mt-0">
+          <a href="https://www.instagram.com/adriangonzalezweb90/" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-7 w-7"
+              fill="currentColor"
+              viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+              <span class="sr-only">Instagram page</span>
+          </a>
+          <a href="https://www.linkedin.com/in/adrian-edgar-gonzalez/" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-7 w-7"
+            fill="currentColor"
+            viewBox="0 0 24 24">
+            <path
+              d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+          </svg>
+              <span class="sr-only">Linkedin page</span>
+          </a>
+          <a href="https://github.com/adriangonzalez-dev" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-7 w-7"
+            fill="currentColor"
+            viewBox="0 0 24 24">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+              <span class="sr-only">GitHub account</span>
+          </a>
+          <a href="https://wa.link/wt755g" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-7 w-7"
+            fill="currentColor"
+            viewBox="0 0 24 24">
+            <path
+              d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+          </svg>
+          
+              <span class="sr-only">Whatsapp account</span>
+          </a>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="public/js/tailwind.js"></script>
+    <script src="public/js/script.js"></script>
+</body>
+</html>
